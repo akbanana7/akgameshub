@@ -1,6 +1,6 @@
 # Ak Games HUb
 ## Games
-###It has games and homepage.
+### It has games and homepage.
 
 
 Open a ticket in the Issues Tab if a game is blocked/not working.
