@@ -1,23 +1,27 @@
 a:link {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
   }
   
   a:active {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
   }
+body{
+  background-color: black;
+  color: white;
+}
