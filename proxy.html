@@ -3,16 +3,14 @@
     <title>Ak Proxy Hub</title>
     <link rel="stylesheet" type="text/css" href="proxy.css">
     <style>
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .column {
-            text-align: center;
-            margin: 20px;
-            font-family: sans-serif;
+        /* CSS to style the iframe */
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Removes iframe border */
         }
     </style>
 </head>
@@ -20,5 +18,5 @@
 <p style="font-family: sans-serif;"><b>Use window below for proxy</b></p>
 <p style="font-family: sans-serif;"><b>If blocked please tell me</b></p>
 <div class="Proxy">
-    <iframe src="https://financial-literacy.fedea.com.ar/tabs" title="Proxy" width=”1280” height=”720”></iframe>
+    <iframe src="https://financial-literacy.fedea.com.ar/tabs"></iframe>
 </div>
