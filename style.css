@@ -25,3 +25,9 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+* {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
