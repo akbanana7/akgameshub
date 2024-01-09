@@ -1,17 +1,39 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>COOKIE OVERRIDE</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="setcookies.js"></script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1>COOKIE SET OVERRIDE</h1>
-        <p>IF CODE FALIURE: Current cookie revocked and Ban Cookie set</p>
-        <button onclick="checkAccessCode()">Enter Code For Access</button>
-        <a href="https://akmath.netlify.app">Back</a>
-    </body>
+<html lang="en">
+<head>
+    <title>COOKIE OVERRIDE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="setCookie.js" defer></script>
+    <script src="checkCookie.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h1 {
+            margin: 0; /* Remove margin from h1 */
+        }
+
+        button {
+            outline: none; /* Remove the focus outline from the button */
+        }
+    </style>
+</head>
+<body>
+    <h1>COOKIE SET OVERRIDE</h1>
+    <p>IF CODE FAILURE: Current cookie revoked and Ban Cookie set</p>
+    <button onclick="checkAccessCode()">Enter Code For Access</button>
+    <a href="https://akmath.netlify.app">Back</a>
+</body>
 </html>
