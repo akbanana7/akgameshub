@@ -3,7 +3,7 @@
 function checkAccessCode() {
     const enteredCode = prompt("Enter the access code:");
 
-    if (enteredCode === "33669900") {
+    if (enteredCode === "336699") {
         const expirationDate = new Date();
         expirationDate.setDate(expirationDate.getDate() + 1); // Set expiration to 1 day from now
         const formattedExpirationDate = expirationDate.toUTCString();
