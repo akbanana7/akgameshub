@@ -5,7 +5,7 @@ function checkAccessCode() {
 
     if (enteredCode === "336699") {
         const expirationDate = new Date();
-        expirationDate.setDate(expirationDate.getDate() + 1); // Set expiration to 1 day from now
+        expirationDate.setMonth(expirationDate.getMonth() + 1); // Set expiration to 1 month from now
         const formattedExpirationDate = expirationDate.toUTCString();
         document.cookie = "access=true; path=/; domain=" + window.location.hostname + "; expires=" + formattedExpirationDate;
         alert("Access granted! You have been granted access.");
