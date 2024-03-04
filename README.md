@@ -1,4 +1,4 @@
-# Ak Games HUb
+# Ak Games Hub
 ## Games
 ### It has games and homepage.
 
